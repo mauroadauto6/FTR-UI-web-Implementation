@@ -244,13 +244,14 @@ header{
 .Testimonios .test-title h3{
     color:#007854;
 }
+.Testimonios .test-row h1{
+    color:#007854;
+}
 .test-row{
     display: flex;
     justify-content:space-evenly;
 }
-.Testimonios .test-title h1{
-    color:#007854;
-}
+
 .Testimonio .cont-test-img-text 
 {
     display: flex;
@@ -286,15 +287,20 @@ footer{
 .logos-list {
     display: flex;
     justify-content:center;
-    height: 100px;
+    height: 30px;
 }
 
 .logos-list a{
-    margin-right: 30px;
+    margin: 30px;
+    position: relative;
+    top: -250%;
 }
 .informacion{
     display: flex;
     justify-content:space-around;
+}
+.informacion a{
+    height: 30px;
 }
 
 .cont-mensaje{
@@ -304,9 +310,9 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
+    height: 50px;
 }
 .mensaje h1 {
-    height: 50px;
+    height: 20px;
     font-size: 30px;
 }
