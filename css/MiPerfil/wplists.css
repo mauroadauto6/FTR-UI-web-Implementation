@@ -1,0 +1,226 @@
+.colores{
+    color: #00DE9B;
+    color: #007854;
+    color: #86EDCE;
+    color: #387E6E;
+    color: #FFFFFF;
+    color: #0FB986;
+}
+
+/*SETEO BASICO*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+/* Color del fondo*/
+body{
+    background-color: #FFFFFF;
+}
+/* Barra de nav*/ 
+header{
+    background-color: #00DE9B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    padding: 5px 10%;
+    margin-bottom: 20px;
+}
+/* Logo de nav*/
+.header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+/* end Logo de nav*/
+
+/* lista de la nav list*/
+.header .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 20px;
+
+}
+
+/* elementos de la nav*/
+.header .nav-list li {
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+.header .nav-list a {
+    font-weight: 500;
+    color: #387E6E;
+    text-decoration: none;
+}
+.header .nav-list li a:hover{
+    color: #007854;
+}
+/*Botones de la nav list*/
+.header .btn button{
+    font-weight: 500;
+    color: #00DE9B;
+    padding: 9px 20px;
+    background: #387E6E;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.header .btn button:hover{
+    background-color: #FFFFFF;
+    color: #387E6E;
+}
+
+/* Formato de título*/
+.titulo-box{
+    background-color: #FFFFFF;
+    display:block;
+    height: 115px;
+    width: 100%;
+}
+/*Titulo de full time reservation*/
+.titulo-box h1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 10px;
+    height: 70px;
+    font-size: 35px;
+    background-color: #00DE9B;
+    color:#007854;
+    border-radius: 30px;
+}
+
+.contenedor{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px; 
+    text-align: center;
+    font-size: 24px;   
+}
+
+/*Boton de lista de restaurantes*/
+
+.contenedor-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px; 
+    text-align: center;
+    font-size: 24px;   
+}
+
+.contenedor-3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    text-align: center;
+    font-size: 24px;   
+}
+
+.btn-2 button{
+    font-weight: 500;
+    color: #387E6E;
+    padding: 9px 50px;
+    background: #00DE9B;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-2 button:hover{
+    background-color: #387E6E;
+    color: #00DE9B;
+}
+
+/* Mis restaurantes gallery*/
+.Restaurantes-lista .contenedor{
+    color:#007854;
+}
+.circulo-modo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rest-img{
+    margin-right: 45px;
+}
+
+.rest-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.rest-img img:hover{
+  opacity: 20%;
+}
+
+.rest-img h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    color:#007854;
+}
+
+/*footer*/
+footer{
+    background-color: #00DE9B;
+    height: 100%;
+    width: 100%;
+}
+
+.logos-list {
+    display: flex;
+    justify-content:center;
+    height: 30px;
+}
+
+.logos-list a{
+    margin: 30px;
+    position: relative;
+    top: -250%;
+}
+.informacion{
+    display: flex;
+    justify-content:space-around;
+}
+.informacion a{
+    height: 30px;
+}
+
+.cont-mensaje{
+    height: 200px;
+}
+.mensaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.mensaje h1 {
+    height: 20px;
+    font-size: 30px;
+}
