@@ -1,0 +1,120 @@
+.colores{
+    color: #00DE9B;
+    color: #007854;
+    color: #86EDCE;
+    color: #387E6E;
+    color: #FFFFFF;
+    color: #0FB986;
+}
+
+/*SETEO BASICO*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+/* Color del fondo*/
+body{
+    background-color: #FFFFFF;
+}
+/* Barra de nav*/ 
+header{
+    background-color: #00DE9B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    padding: 5px 10%;
+    margin-bottom: 20px;
+}
+/* Logo de nav*/
+.header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+/* end Logo de nav*/
+
+/* lista de la nav list*/
+.header .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 20px;
+
+}
+
+/* elementos de la nav*/
+.header .nav-list li {
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+.header .nav-list a {
+    font-weight: 500;
+    color: #387E6E;
+    text-decoration: none;
+}
+.header .nav-list li a:hover{
+    color: #007854;
+}
+/*Botones de la nav list*/
+.header .btn button{
+    font-weight: 500;
+    color: #00DE9B;
+    padding: 9px 20px;
+    background: #387E6E;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.header .btn button:hover{
+    background-color: #FFFFFF;
+    color: #387E6E;
+}
+
+/*Contenido*/
+/*User ID*/
+.contenido{
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+.contenido .user-id {
+    position: relative;
+    background-color: #86EDCE;
+    width: 28%;
+    border-radius: 25px;
+    display: flex;
+}
+.contenido .user-id .datos h1{
+    color: #007854;
+    background-color: #00DE9B;
+    width: 100%;
+    height: 20%;
+    border-radius: 15px;
+    font-size: medium;
+    font-weight: 570;
+    text-align: center;
+    padding: 10px;
+    margin: 10%;
+}
+.contenido .user .cont-img img {
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+    position: absolute;
+    right: 5.5%;
+    top: 6.5%;
+} 
