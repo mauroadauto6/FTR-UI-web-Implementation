@@ -93,9 +93,11 @@ header{
     text-align: center;
     font-size: 24px;   
 }
-/**/
+
+/*Boton de lista de restaurantes*/
 
 .contenedor-2{
+    margin-top: 3%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -105,6 +107,7 @@ header{
 }
 
 .contenedor-3{
+    margin-bottom: 3%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +120,7 @@ header{
     font-weight: 500;
     color: #387E6E;
     padding: 9px 50px;
-    background: #86EDCE;
+    background: #00DE9B;
     border: 0px;
     border-radius: 50px;
     cursor: pointer;
@@ -144,7 +147,6 @@ header{
 }
 
 .rest-img img {
-    justify-content: center;
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -162,7 +164,7 @@ header{
     justify-content: center;
     text-align: center;
     margin-top: 15px;
-    color:#387E6E;
+    color:#007854;
 }
 
 /*footer*/

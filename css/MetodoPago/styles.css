@@ -137,46 +137,6 @@ header{
     color: #00DE9B;
 }
 
-/*footer*/
-footer{
-    background-color: #00DE9B;
-    height: 100%;
-    width: 100%;
-}
-
-.logos-list {
-    display: flex;
-    justify-content:center;
-    height: 30px;
-}
-
-.logos-list a{
-    margin: 30px;
-    position: relative;
-    top: -250%;
-}
-.informacion{
-    display: flex;
-    justify-content:space-around;
-}
-.informacion a{
-    height: 30px;
-}
-
-.cont-mensaje{
-    height: 200px;
-}
-.mensaje{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-}
-.mensaje h1 {
-    height: 20px;
-    font-size: 30px;
-}
-
 /*Metodos De Pago*/
 .Pagos-lista .contenedor{
     color:#007854;
@@ -195,4 +155,48 @@ footer{
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+/*footer*/
+footer{
+    background-color: #00DE9B;
+    height: 100%;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.logos-list {
+    display: flex;
+    justify-content:center;
+    height: 30px;
+}
+.logos-list a{
+    margin: 30px;
+    position: relative;
+    top: -250%;
+}
+
+.informacion{
+    display: flex;
+    justify-content:space-around;
+}
+.informacion a{
+    font-size: medium;
+    height: 20px;
+    position: relative;
+    bottom: 95%;
+}
+
+.cont-mensaje{
+    height: 200px;
+}
+.mensaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.mensaje h1 {
+    height: 20px;
+    font-size: 30px;
 }
