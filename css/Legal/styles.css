@@ -84,26 +84,6 @@ header{
     color: #387E6E;
 }
 
-/* Formato de título*/
-.titulo-box{
-    background-color: #FFFFFF;
-    display:block;
-    height: 115px;
-    width: 100%;
-}
-/*Titulo de full time reservation*/
-.titulo-box h1 {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin-top: 10px;
-    height: 70px;
-    font-size: 35px;
-    background-color: #00DE9B;
-    color:#007854;
-    border-radius: 30px;
-}
 
 .contenedor{
     display:flex;

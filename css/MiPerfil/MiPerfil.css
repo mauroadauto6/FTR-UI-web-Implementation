@@ -90,11 +90,13 @@ header{
     position: relative;
     justify-content: center;
     display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .contenido .user-id {
-    position: relative;
+    position: absolute;
     background-color: #86EDCE;
-    width: 28%;
+    width: auto;
     border-radius: 25px;
     display: flex;
 }
@@ -114,7 +116,77 @@ header{
     width: 170px;
     height: 170px;
     border-radius: 20px;
-    position: absolute;
-    right: 5.5%;
-    top: 6.5%;
+    margin: 12px 12px 12px 31px;
 } 
+
+/*Opciones de Mis Datos*/
+.contenido2{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    top: 200px;
+    margin-bottom: 10%;
+}
+.contenido2 .opciones{
+    background-color: #FFFFFF;
+}
+
+.boton-opciones button {
+    font-weight: 500;
+    color: #007854;
+    padding: 9px 25px;
+    background: #86EDCE;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 3%;
+}
+.boton-opciones button:hover{
+    background-color: #007854;
+    color: #86EDCE;
+}
+
+/*footer*/
+footer{
+    background-color: #00DE9B;
+    height: 100%;
+    width: 100%;
+    margin-top: 225px;
+}
+
+.logos-list {
+    display: flex;
+    justify-content:center;
+    height: 30px;
+}
+.logos-list a{
+    margin: 30px;
+    position: relative;
+    top: -250%;
+}
+
+.informacion{
+    display: flex;
+    justify-content:space-around;
+}
+.informacion a{
+    font-size: medium;
+    height: 20px;
+    position: relative;
+    bottom: 95%;
+}
+
+.cont-mensaje{
+    height: 200px;
+}
+.mensaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.mensaje h1 {
+    height: 20px;
+    font-size: 30px;
+}
