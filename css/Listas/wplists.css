@@ -209,3 +209,20 @@ footer{
     height: 20px;
     font-size: 30px;
 }
+
+@media screen and (max-width: 480px) {
+    .circulo-modo {
+        flex-direction: column;
+    }
+    .contenedor-2{
+        margin-top: 30px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px; 
+        text-align: center;   
+    }
+    .btn-2 button{
+        font-size: 18px; 
+    }
+}

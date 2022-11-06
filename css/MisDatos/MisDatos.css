@@ -175,3 +175,40 @@ footer{
     height: 20px;
     font-size: 30px;
 }
+
+@media screen and (max-width: 480px) {
+    .contenido .cont-user{
+        display: flex;
+        position: absolute;
+        background-color: #86EDCE;
+        justify-content: center;
+        width: 125px;
+        height: 125px;
+        border-radius: 22px;
+    }
+    .cont-user img{
+        width: 100px;
+        height: 100px;
+        border-radius: 22px;
+        margin: 13px 15px 20px 15px;
+    }
+    .contenido .datos-user{
+        width: 250px;
+        margin-top: 135px;
+        background-color: #FFFFFF;
+    }
+    .contenido .datos-user h1{
+        text-align: center;
+        padding: 7px 4px 7px 4px;
+        margin: 10px 5px 5px 0px;
+        color: #387E6E;
+        background-color: #86EDCE;
+        border-radius: 15px;
+        font-weight: 400;
+        font-size: 14px
+    }
+    .contenido .datos-user span{
+        font-size: 15px
+    }
+}
+

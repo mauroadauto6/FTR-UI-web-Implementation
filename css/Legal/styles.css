@@ -218,3 +218,18 @@ footer{
     height: 20px;
     font-size: 30px;
 }
+
+@media screen and (max-width: 480px) {
+
+    .btn-2 button{
+        font-weight: 800;
+        font-size: 20px;
+        color: #387E6E;
+        padding: 9px 50px;
+        background: #00DE9B;
+        border: 0px;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s
+    }
+}

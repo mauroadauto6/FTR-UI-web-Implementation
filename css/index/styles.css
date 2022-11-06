@@ -320,3 +320,30 @@ footer{
     height: 20px;
     font-size: 30px;
 }
+
+@media screen and (max-width: 480px) {
+    .buscador-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .buscador-box h1 {
+        font-size: 25px;
+    }
+
+    .circle-gallery {
+        flex-direction: column;
+    }
+
+    .Collage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fila-img {
+        display: flex;
+        flex-direction: column;
+    }
+}
