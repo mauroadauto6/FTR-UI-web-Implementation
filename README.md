@@ -13,3 +13,5 @@ Legal - Jair Rodriguez
 TyC - Jair Rodriguez
 Politicas - Jair Rodriguez
 Cookies - Jair Rodriguez
+
+Responsive Design - David
