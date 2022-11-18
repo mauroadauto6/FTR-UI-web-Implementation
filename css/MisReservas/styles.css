@@ -87,24 +87,25 @@ header{
 /*Contenido*/
 /*User ID*/
 .contenido{
-    position: relative;
+    position:relative;
     justify-content: center;
     display: flex;
     margin-top: 2%;
     margin-bottom: 2%;
+    height: 210px;
 }
 .contenido .user-id {
-    position: absolute;
+    position: relative;
     background-color: #86EDCE;
-    width: auto;
+    width: 400px;
     border-radius: 25px;
     display: flex;
 }
 .contenido .user-id .datos h1{
     color: #007854;
     background-color: #00DE9B;
-    width: 100%;
-    height: 20%;
+    width: 170px;
+    height: 15%;
     border-radius: 15px;
     font-size: medium;
     font-weight: 570;
@@ -116,7 +117,7 @@ header{
     width: 170px;
     height: 170px;
     border-radius: 20px;
-    margin: 12px 12px 12px 31px;
+    margin: 23px 12px 12px 40px;
 } 
 
 /*Opciones de Mis Datos*/
@@ -147,12 +148,33 @@ header{
     color: #86EDCE;
 }
 
+.contenedor-3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px; 
+    text-align: center;
+    font-size: 24px;   
+}
+
+.btn-2 button{
+    font-weight: 500;
+    color: #387E6E;
+    padding: 9px 50px;
+    margin-top: 10px;
+    background: #00DE9B;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
 /*footer*/
 footer{
     background-color: #00DE9B;
     height: 100%;
     width: 100%;
-    margin-top: 225px;
+    margin-top: 110px;
 }
 
 .logos-list {
