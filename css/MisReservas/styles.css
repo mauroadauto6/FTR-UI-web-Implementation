@@ -1,0 +1,192 @@
+.colores{
+    color: #00DE9B;
+    color: #007854;
+    color: #86EDCE;
+    color: #387E6E;
+    color: #FFFFFF;
+    color: #0FB986;
+}
+
+/*SETEO BASICO*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+/* Color del fondo*/
+body{
+    background-color: #FFFFFF;
+}
+/* Barra de nav*/ 
+header{
+    background-color: #00DE9B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    padding: 5px 10%;
+    margin-bottom: 20px;
+}
+/* Logo de nav*/
+.header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+/* end Logo de nav*/
+
+/* lista de la nav list*/
+.header .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 20px;
+
+}
+
+/* elementos de la nav*/
+.header .nav-list li {
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+.header .nav-list a {
+    font-weight: 500;
+    color: #387E6E;
+    text-decoration: none;
+}
+.header .nav-list li a:hover{
+    color: #007854;
+}
+/*Botones de la nav list*/
+.header .btn button{
+    font-weight: 500;
+    color: #00DE9B;
+    padding: 9px 20px;
+    background: #387E6E;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.header .btn button:hover{
+    background-color: #FFFFFF;
+    color: #387E6E;
+}
+
+/*Contenido*/
+/*User ID*/
+.contenido{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.contenido .user-id {
+    position: absolute;
+    background-color: #86EDCE;
+    width: auto;
+    border-radius: 25px;
+    display: flex;
+}
+.contenido .user-id .datos h1{
+    color: #007854;
+    background-color: #00DE9B;
+    width: 100%;
+    height: 20%;
+    border-radius: 15px;
+    font-size: medium;
+    font-weight: 570;
+    text-align: center;
+    padding: 10px;
+    margin: 10%;
+}
+.contenido .user .cont-img img {
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+    margin: 12px 12px 12px 31px;
+} 
+
+/*Opciones de Mis Datos*/
+.contenido2{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    top: 200px;
+    margin-bottom: 10%;
+}
+.contenido2 .opciones{
+    background-color: #FFFFFF;
+}
+
+.boton-opciones button {
+    font-weight: 500;
+    color: #007854;
+    padding: 9px 25px;
+    background: #86EDCE;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 3%;
+}
+.boton-opciones button:hover{
+    background-color: #007854;
+    color: #86EDCE;
+}
+
+/*footer*/
+footer{
+    background-color: #00DE9B;
+    height: 100%;
+    width: 100%;
+    margin-top: 225px;
+}
+
+.logos-list {
+    display: flex;
+    justify-content:center;
+    height: 30px;
+}
+.logos-list a{
+    margin: 30px;
+    position: relative;
+    top: -250%;
+}
+
+.informacion{
+    display: flex;
+    justify-content:space-around;
+}
+.informacion a{
+    font-size: medium;
+    height: 20px;
+    position: relative;
+    bottom: 95%;
+}
+
+.cont-mensaje{
+    height: 200px;
+}
+.mensaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.mensaje h1 {
+    height: 20px;
+    font-size: 30px;
+}
