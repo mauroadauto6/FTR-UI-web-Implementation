@@ -109,6 +109,7 @@ header{
     font-size: 20px;
     font-weight: 570;
     text-align: center;
+    align-items: center;
     margin: 10%;
 }
 .contenido .user .cont-img img {

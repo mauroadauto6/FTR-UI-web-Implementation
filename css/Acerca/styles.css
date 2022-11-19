@@ -135,16 +135,17 @@ header{
 }
 
 .contenedor-5{
-    display:flex;
-    justify-content: center;
-    align-items: stretch;
     height: 177px;
-    width: 1400px;
-    margin-top: 20px;
-    margin-left: 170px;
-    text-align: center;
+    margin: 5%;
     font-size: 24px;   
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
+.contenedor-5 h1 {
+    width: 50%;
+}
+
 .btn-2 button{
     font-weight: 500;
     color: #387E6E;
