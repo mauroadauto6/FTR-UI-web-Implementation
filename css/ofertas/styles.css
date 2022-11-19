@@ -101,12 +101,11 @@ header{
     border-radius: 25px;
     display: flex;
 }
-
 .contenido .user-id .datos h1{
     color: #007854;
     background-color: #00DE9B;
-    width:320px;
-    height: 40px;
+    width: 170px;
+    height: 15%;
     border-radius: 15px;
     font-size: medium;
     font-weight: 570;
@@ -114,18 +113,6 @@ header{
     padding: 10px;
     margin: 10%;
 }
-.contenido .user-id .datos h2{
-    color: #007854;
-    width:320px;
-    height: 20px;
-    border-radius: 15px;
-    font-size: medium;
-    font-weight: 570;
-    text-align: center;
-    padding: 10px;
-    margin: 10%;
-}
-
 .contenido .user .cont-img img {
     width: 170px;
     height: 170px;
@@ -135,6 +122,7 @@ header{
 
 /*Opciones de Mis Datos*/
 .contenido2{
+    align-items: center;
     position: relative;
     justify-content: center;
     display: flex;

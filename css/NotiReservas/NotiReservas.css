@@ -1,0 +1,170 @@
+.colores{
+    color: #00DE9B;
+    color: #007854;
+    color: #86EDCE;
+    color: #387E6E;
+    color: #FFFFFF;
+    color: #0FB986;
+}
+
+/*SETEO BASICO*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+/* Color del fondo*/
+body{
+    background-color: #FFFFFF;
+}
+/* Barra de nav*/ 
+header{
+    background-color: #00DE9B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    padding: 5px 10%;
+    margin-bottom: 20px;
+}
+/* Logo de nav*/
+.header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+/* end Logo de nav*/
+
+/* lista de la nav list*/
+.header .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 20px;
+
+}
+
+/* elementos de la nav*/
+.header .nav-list li {
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+.header .nav-list a {
+    font-weight: 500;
+    color: #387E6E;
+    text-decoration: none;
+}
+.header .nav-list li a:hover{
+    color: #007854;
+}
+/*Botones de la nav list*/
+.header .btn button{
+    font-weight: 500;
+    color: #00DE9B;
+    padding: 9px 20px;
+    background: #387E6E;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.header .btn button:hover{
+    background-color: #FFFFFF;
+    color: #387E6E;
+}
+
+/* Contenido */
+.contenido{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Mis reservas */
+.contenido1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-ofyp .btn-mis-reservas button{
+    font-weight: 500;
+    color: #387E6E;
+    padding: 9px 50px;
+    margin-top: 10px;
+    background: #00DE9B;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.contenido2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cont-notificaciones .notificaciones li{
+    margin: 30px 0px 30px 0px;
+    padding: 12px 0px 12px 0px;
+    width: 550px;
+    background-color: #86EDCE;
+    border-radius: 14px;
+    color: #387E6E;
+}
+
+
+/*footer*/
+footer{
+    background-color: #00DE9B;
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.logos-list {
+    display: flex;
+    justify-content:center;
+    height: 30px;
+}
+.logos-list a{
+    margin: 30px;
+    position: relative;
+    top: -250%;
+}
+
+.informacion{
+    display: flex;
+    justify-content:space-around;
+}
+.informacion a{
+    font-size: medium;
+    height: 20px;
+    position: relative;
+    bottom: 95%;
+}
+
+.cont-mensaje{
+    height: 200px;
+}
+.mensaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.mensaje h1 {
+    height: 20px;
+    font-size: 30px;
+}

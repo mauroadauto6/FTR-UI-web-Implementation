@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Notificaciones/wpnotifications.css">
+    <link rel="stylesheet" href="css/Formulario/Formulario.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap">
-<title>Notificaciones</title>
+    <!-- CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Formulario de reserva</title>
+    <link rel="icon" href="img/Logo/Logo_FTR.png">
 </head>
+
 <body>
+    <!-- Creando la barra de navegacion -->
     <header class="header">
         <div class="logo">
             <a href="index.html"><img src="img/Logo/Logo_FTR.png" alt="Logo Full Time Reservation""></img></a>
@@ -25,33 +31,44 @@
             <a href="#" class="btn"><button>Lionel Messi</button></a>
         </div>
     </header>
-    <div class="contenedor-2">
-            <a href="NotiReservas.html" class="btn-2"><button>¡RESERVACIONES!</button></a>
-    </div>
-     <!-- Creando simbolo notificacion reserva -->
-     <div class="Restaurantes-lista">
-        <div class="circulo-modo">
-            <div class="rest-img">
-                <img class="circle" alt="notificacion_r" src="img/Notificaciones/notificacion_r.png"></img>
+
+    <!--Contenido-->
+    <div class="contenido">
+        <div class="contenido1">
+            <div class="cont-restaurante">
+                <div class="img-restaurante"><img src="img/RESTAURANTES/astrid-gaston.jpg" alt="Astrid y Gaston"></div>
+                <div class="nombre-restaurante">
+                    <h1>Astrig y Gaston</h1>
+                </div>
+            </div>
         </div>
-         <!-- mostrar imagen del restaurante mas sus nombres y se 
-        pueden sliecear -->     
-    </div>
-    <!-- Cerrando simbolo notificacion reserva -->
-    <!--Botón de Mis Reservaciones-->
-    <div class="contenedor-3">
-            <a href="ofertas.html" class="btn-2"><button>¡OFERTAS Y PROMOCIONES!</button></a>
-    </div>
-    <!-- Creando simbolo notificacion promociones -->
-    <div class="Restaurantes-lista">
-        <div class="circulo-modo">
-            <div class="rest-img">
-                <img class="circle" alt="notificacion_p" src="img/Notificaciones/notificacion_p.png"></img>
+
+        <div class="contenido2">
+            <div class="cont-datos-user">
+                <div class="nombre-apellidos">
+                    <input class="input-n-a" type="search" placeholder="Nombre y Apellidos">
+                </div>
+    
+                <div class="dia-mes-hora">
+                    <input class="input" type="search" placeholder="Día">
+                    <input class="input" type="search" placeholder="Mes">
+                    <input class="input" type="search" placeholder="Hora">
+                </div>
+    
+                <div class="personas-precio">
+                    <input class="input" type="search" placeholder="">
+                    <h1>S/.750.00</h1>
+                </div>
+            </div>
         </div>
-         <!-- mostrar imagen del restaurante mas sus nombres y se 
-        pueden sliecear -->     
+
+        <div class="contenido3">
+            <div class="cont-reservar">
+                <a href="ReservaRealizada.html" class="btn"><button>RESERVAR</button></a>
+            </div>
+        </div>
+
     </div>
-    <!-- Cerrando simbolo notificacion promociones -->
 </body>
 
 <footer class="foot">
@@ -76,6 +93,3 @@
         </ul>
     </div>
 </footer>
-    <!-- Cerrando pie de pagina-->
-</html>
-</html>

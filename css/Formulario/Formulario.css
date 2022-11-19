@@ -1,0 +1,232 @@
+.colores{
+    color: #00DE9B;
+    color: #007854;
+    color: #86EDCE;
+    color: #387E6E;
+    color: #FFFFFF;
+    color: #0FB986;
+}
+
+/*SETEO BASICO*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+/* Color del fondo*/
+body{
+    background-color: #FFFFFF;
+}
+/* Barra de nav*/ 
+header{
+    background-color: #00DE9B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    padding: 5px 10%;
+    margin-bottom: 20px;
+}
+/* Logo de nav*/
+.header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+/* end Logo de nav*/
+
+/* lista de la nav list*/
+.header .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 20px;
+
+}
+
+/* elementos de la nav*/
+.header .nav-list li {
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+.header .nav-list a {
+    font-weight: 500;
+    color: #387E6E;
+    text-decoration: none;
+}
+.header .nav-list li a:hover{
+    color: #007854;
+}
+/*Botones de la nav list*/
+.header .btn button{
+    font-weight: 500;
+    color: #00DE9B;
+    padding: 9px 20px;
+    background: #387E6E;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.header .btn button:hover{
+    background-color: #FFFFFF;
+    color: #387E6E;
+}
+
+/* Contenido */
+.contenido{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Restaurante */
+.contenido1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-restaurante{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: #86EDCE;
+    width: 45%;
+    border-radius: 25px;
+}
+.img-restaurante{
+    padding: 22px 0px 10px 0px;
+    border-radius: 25px;
+}
+.img-restaurante img{
+    border-radius: 25px;
+}
+.nombre-restaurante{
+    padding: 0px 0px 16px 0px;
+}
+.nombre-restaurante h1{
+    color: #387E6E;
+}
+/* ------------------------------------------ */
+
+/* Datos user */
+.contenido2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cont-datos-user input{
+    background-color: #86EDCE;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 5px 10px 5px;
+    color:#0FB986;
+}
+.cont-datos-user .input-n-a{
+    width: 650px;
+}
+.dia-mes-hora .input{
+    width: 100px;
+}
+.cont-datos-user .personas-precio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.personas-precio h1{
+    background-color: #86EDCE;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 5px 10px 5px;
+    color: #0FB986;
+}
+.personas-precio .input{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 700;
+    width: 80px;
+}
+
+/* ------------------------------------------ */
+
+/* Auto completar */
+/* Reservar */
+.contenido3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+}
+.contenido3 button{
+    align-items: center;
+    font-weight: 500;
+    color: #387E6E;
+    padding: 9px 25px;
+    background: #00DE9B;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 0px 0px 20px 0px;
+}
+.contenido3 button:hover{
+    background-color: #387E6E;
+    color: #00DE9B;
+}
+
+/*footer*/
+footer{
+    background-color: #00DE9B;
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.logos-list {
+    display: flex;
+    justify-content:center;
+    height: 30px;
+}
+.logos-list a{
+    margin: 30px;
+    position: relative;
+    top: -250%;
+}
+
+.informacion{
+    display: flex;
+    justify-content:space-around;
+}
+.informacion a{
+    font-size: medium;
+    height: 20px;
+    position: relative;
+    bottom: 95%;
+}
+
+.cont-mensaje{
+    height: 200px;
+}
+.mensaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.mensaje h1 {
+    height: 20px;
+    font-size: 30px;
+}
