@@ -1,0 +1,130 @@
+.colores{
+    color: #00DE9B;
+    color: #007854;
+    color: #86EDCE;
+    color: #387E6E;
+    color: #FFFFFF;
+    color: #0FB986;
+}
+
+/*SETEO BASICO*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Color del fondo*/
+body{
+    background-color: #FFFFFF;
+    cursor: auto;
+}
+/*Titulo de full time reservation*/
+.buscador-box h1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-top: 20px;
+    height: 70px;
+    font-size: 35px;
+    background-color: #00DE9B;
+    color:#007854;
+    border-radius: 30px;
+}
+
+.contenedor{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    text-align: center;
+    font-size: 24px;   
+}
+
+/*contenedor crear cuenta*/
+.cont-crear-cuenta{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    text-align: center;
+}
+
+.cont-crear-cuenta h1{
+    color: #007854;
+    background: #00DE9B;
+    padding: 12px 7px 12px 7px;
+    width: 300px;
+    border-radius: 13px;
+}
+
+/*logo ftr*/
+.cont-logo-ftr{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cont-logo-ftr img{
+    width: 350px;
+    height: 300px;
+}
+
+/*bienvenido*/
+.cont-bienvenido {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px; 
+}
+.cont-bienvenido h1{
+    color: #007854;
+    background: #00DE9B;
+    padding: 12px 7px 12px 7px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+/*datos user*/
+.cont-datos-user {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cont-datos-user input{
+    background: #86EDCE;
+    padding: 12px 7px 12px 7px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    
+}
+
+/*crear cuenta*/
+.cont-registro{
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+.cont-registro button{
+    color: #007854;
+    background: #00DE9B;
+    padding: 12px 7px 12px 7px;
+    margin: 15px 5px 40px 5px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.cont-registro button:hover{
+    background-color: #387E6E;
+    color: #00DE9B;
+}
